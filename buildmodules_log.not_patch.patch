@@ -1,0 +1,10 @@
+make -C ../ti-linux-kernel M=/home/varodek/TI/development/cryptodev-linux ARCH=arm64 CROSS_COMPILE=aarch64-none-linux-gnu- modules
+make[1]: Entering directory '/home/varodek/TI/development/ti-linux-kernel'
+
+  ERROR: Kernel configuration is invalid.
+         include/generated/autoconf.h or include/config/auto.conf are missing.
+         Run 'make oldconfig && make prepare' on kernel src to fix it.
+
+make[1]: *** [Makefile:704: include/config/auto.conf] Error 1
+make[1]: Leaving directory '/home/varodek/TI/development/ti-linux-kernel'
+make: *** [Makefile:30: build] Error 2
