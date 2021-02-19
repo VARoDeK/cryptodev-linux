@@ -6,6 +6,7 @@ Module.symvers
 *.ko
 *.o
 *.mod.c
+*.patch
 modules.order
 tests/async_cipher
 tests/async_hmac
